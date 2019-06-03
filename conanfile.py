@@ -5,7 +5,7 @@ from conans import CMake, tools
 
 class CdsConan(ConanFile):
     name = "cds"
-    version = "2.3.2"
+    version = "2.3.3"
     archive = "lib%s-%s.tar.gz" % (name, version)
     folder = "lib%s-%s" % (name, version)
     settings = "os", "compiler", "arch", "build_type"
